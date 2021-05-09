@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valuta Omregner</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body>
+    <h1>Valuta Omregner</h1>
+    <form onsubmit="return false" id="form1">
+        <input type="number" id="original-currency-amount" placeholder="1"></input>
+        <select type="text" id="original-currency-unit" placeholder="Vælg Valuta" required>
+            <option selected>US Dollar</option>
+            <option>Euro</option>
+            <option>Danish Krone</option>
+            <option>British Pound</option>
+        </select>
+        <input type="number" id="new-currency-amount" placeholder="1"></input>
+        <select type="text" id="new-currency-unit" placeholder="Vælg valuta" required>
+            <option selected>US Dollar</option>
+            <option>Euro</option>
+            <option>Danish Krone</option>
+            <option>British Pound</option>
+        </select>
+    </form>
+
+    <p id="exchange-rate">1 USD = 1 USD</p>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
